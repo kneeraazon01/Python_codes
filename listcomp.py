@@ -68,7 +68,8 @@ def positives(nums):
 
 def selective_stringify_nums(nums):
     """Selectively stringify nums:
-    Given a list of numbers, write a list comprehension that produces a list of strings of each number that is divisible by 5.
+    Given a list of numbers, write a list comprehension that produces
+    a list of strings of each number that is divisible by 5.
         >>> selective_stringify_nums([25, 91, 22, -7, -20])
         ['25', '-20']
     """
@@ -77,7 +78,8 @@ def selective_stringify_nums(nums):
 
 def words_not_the(sentence):
     """Words not 'the'
-    Given a sentence, produce a list of the lengths of each word in the sentence, but only if the word is not 'the'.
+    Given a sentence, produce a list of the lengths of each word
+    in the sentence, but only if the word is not 'the'.
         >>> words_not_the('the quick brown fox jumps over the lazy dog')
         [5, 5, 3, 5, 4, 4, 3]
     """
@@ -95,7 +97,8 @@ def vowels(word):
 
 def vowels_set(word):
     """Vowels set:
-    Given a string representing a word, write a set comprehension that produces a set of all the vowels in that word.
+    Given a string representing a word,
+     write a set comprehension that produces a set of all the vowels in that word.
         >>> vowels_set('mathematics')
         set(['a', 'i', 'e'])
     """
