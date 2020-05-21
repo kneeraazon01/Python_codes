@@ -8,6 +8,8 @@ os.chdir(
 # print(dir(os))  # prints the current directory
 
 
+
+
 for f in os.listdir():
     # If .DS_Store file is created, ignore it
     if f == '.DS_Store':
