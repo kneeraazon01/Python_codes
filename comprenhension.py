@@ -4,7 +4,7 @@ for i in nums:
     my_list.append(i)
     print(my_list)
 
-# my_list=[x for x in nums]
+# ? my_list=[x for x in nums]
 # print(my_list)
 
 my_list = [n * n for n in nums]
@@ -19,6 +19,7 @@ k = print(my_list)
 # print(my_list)
 
 my_list = filter(lambda n: n % 2 == 0, nums)
+
 print(list(my_list))
 
 my_list = []
@@ -28,14 +29,14 @@ for letter in "abcd":
         print(my_list)
 
 
-# my_list=[(letter,num) for letter in "abcd" for num in range(4)]
-# print(my_list)
+my_list = [(letter, num) for letter in "abcd" for num in range(4)]
+print(my_list)
 
 
 # AND NOT TO DICTIONARIES
 
 
-names = ["nirajan", "priyanka", "manisha", "sangita"]
+names = ["nirajan", "karina", "manisha", "sangita"]
 for index, name in enumerate(names):
     print(index, name)
 
