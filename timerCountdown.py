@@ -1,9 +1,5 @@
 import platform
-
-try:
-    import Tkinter as tk
-except ImportError:
-    import tkinter as tk
+import tkinter as tk
 
 FONT_NAME = "Roboto"
 
