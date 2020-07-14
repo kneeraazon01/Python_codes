@@ -44,3 +44,7 @@ emp_1 = employee("nirajan", "karki", 50000)
 print(emp_1.fullname())
 print(emp_1.email)
 print(emp_1.pay)
+
+
+
+look at this s s fsdfsdfsdfsdfsdfefs
